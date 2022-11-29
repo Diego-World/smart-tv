@@ -26,4 +26,8 @@ public class SmartTv {
     public void descerCanal(){
         canal--;
     }
+
+    public void mudarCanal(int novoCanal){
+        canal = novoCanal;
+    }
 }
